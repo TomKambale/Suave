@@ -35,19 +35,19 @@ function Footer() {
 //         </div>
 //     </div>
 // </div>  ) */}
-<section className='footer'>
+<section className='contact'>
 <div className="footer">
 <div className="footer-2">
-  <p className="explore-excellence">
+<div className="text-wrapper-15">contact us</div>
+<p className="explore-excellence">
     <span className="text-wrapper">Explore Excellence</span>
-    <span className="span">. </span>
+    <span className="span">.</span>
     <span className="text-wrapper-2">Elevate Your Brand</span>
     <span className="span">.</span>
-    <span className="text-wrapper"> Embrace Innovation</span>
+    <span className="text-wrapper"> Embrace Innovation </span>
     <span className="span">.</span>
   </p>
-  <div className="text-wrapper-3">suavedesign.africa @2024</div>
-  <div className="text-wrapper-4">contact us</div>
+  <div className="text-wrapper-3">suavedesign.africa  @2024</div>
   <div className="reach-us-on">
     <div className="call">
       <div className="text-wrapper-5">0725611196</div>
@@ -58,7 +58,7 @@ function Footer() {
       />
     </div>
     <div className="email">
-      <div className="text-wrapper-6">suavedesign.africa</div>
+      <div className="text-wrapper-6">  suavedesign.africa</div>
       <img
         className="icon-envelope-open"
         alt="Icon envelope open"
@@ -74,7 +74,7 @@ function Footer() {
       />
     </div>
     <div className="time">
-      <p className="text-wrapper-6">Mon-Fri: 08.00 - 17.00, Saturday $ Sunday: Closed</p>
+      <div className="text-wrapper-6">Mon-Fri: 08.00 - 17.00, Saturday $ Sunday: Closed</div>
       <img
         className="icon-clock"
         alt="Icon clock"

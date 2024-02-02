@@ -8,7 +8,7 @@ function About() {
 //     <div style={{width: 563, height: 143, left: 0, top: 143, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'Cormorant Garamond', fontWeight: '600', wordWrap: 'break-word'}}>Based in Kenya, our dynamic design company comprises a skilled team ready to transform visions into impactful designs. From local projects to ventures across Africa and globally, our professionals bring a versatile and creative touch to every endeavour. Explore the intersection of innovation and expertise with our committed team, delivering design excellence that transcends borders.</div>
 //     <div style={{left: 523, top: 0, position: 'absolute', textAlign: 'center', color: 'black', fontSize: 24, fontFamily: 'Cormorant Garamond', fontWeight: '700', wordWrap: 'break-word'}}>about us</div>
 // </div>
-<section className='about'>
+<section className='hero-section'>
   <div className="about">
 <div className="hero">
   <div className="text-wrapper-15">about us</div>

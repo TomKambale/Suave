@@ -649,10 +649,10 @@ function Services() {
     //     </div>
     //   </div>
     // </div>
-    <section className="services">    
+    <section className="service">    
     <div className="services">
     <div className="services-2">
-      <div className="text-wrapper-13">services</div>
+      <div className="text-wrapper-15">services</div>
       <div className="customized-design">
         <div className="overlap-group">
           <p className="p">
@@ -799,7 +799,7 @@ function Services() {
       <div className="printing-services">
         <div className="overlap-group">
           <p className="printing-services-2">
-            <span className="text-wrapper-12">
+            <span className="text-wrapper-11">
               Printing Services:
               <br />
             </span>
@@ -829,7 +829,7 @@ function Services() {
       <div className="print-design">
         <div className="overlap-group">
           <p className="print-design-2">
-            <span className="text-wrapper-12">
+            <span className="text-wrapper-11">
               Print Design Services:
               <br />
             </span>
@@ -858,7 +858,7 @@ function Services() {
       <div className="digital-design">
         <div className="overlap">
           <p className="digital-design-2">
-            <span className="text-wrapper-12">
+            <span className="text-wrapper-11">
               Digital Design Services:
               <br />
             </span>
@@ -885,7 +885,7 @@ function Services() {
       <div className="graphic-design">
         <div className="overlap-group">
           <p className="graphic-design-2">
-            <span className="text-wrapper-12">
+            <span className="text-wrapper-11">
               Graphic Design Services:
               <br />
             </span>
