@@ -12,9 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 .App-header {
   background-color: #282c34;
@@ -286,7 +284,7 @@
   left: 159px;
   padding: 45px 94px;
   position: absolute;
-  top: 4633px;
+  top: 5142px;
 }
 
 .text-wrapper-8 {
@@ -323,7 +321,13 @@
   left: 158px;
   padding: 49px 94px;
   position: absolute;
-  top: 3860px;
+  top: 4125px;
+  width: 1128px;
+  height: 878px;
+}
+.text{
+  flex-direction: column;
+  align-items: center;
 }
 
 .services {
