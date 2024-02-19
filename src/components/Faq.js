@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 
 function Faq() {
   return (
@@ -11,7 +10,12 @@ function Faq() {
         >
           faq’s
         </div>
-        <div className="flex items-center justify-center h-full text-center" style={{ verticalAlign: 'middle' }}>          What design services do you offer?
+        <div
+          className="flex items-center justify-center h-full text-center"
+          style={{ verticalAlign: "middle" }}
+        >
+          {" "}
+          What design services do you offer?
           <br></br>
           Answer: We offer a comprehensive range of design services, including
           logo design, branding, print design, digital design, and more. Explore

@@ -1,5 +1,4 @@
 import React from "react";
-// import '../App.css';
 
 function Footer() {
   return (
@@ -14,11 +13,11 @@ function Footer() {
         <div className="grid grid-cols-2">
           <div className="first-half">
             <p className="explore-excellence">
-              <span className="text-wrapper">Explore Excellence</span>
+              <span className="text-blue-400">Explore Excellence</span>
               <span className="span">.</span>
-              <span className="text-wrapper-2">Elevate Your Brand</span>
+              <span className="text-yellow-300">Elevate Your Brand</span>
               <span className="span">.</span>
-              <span className="text-wrapper">Embrace Innovation </span>
+              <span className="text-blue-400">Embrace Innovation </span>
               <span className="span">.</span>
             </p>
             <div className="text-wrapper-3">suavedesign.africa @2024</div>
@@ -60,14 +59,13 @@ function Footer() {
             </div>
           </div>
         </div>
-<div className="flex items-center justify-center h-screen">
+        {/* <div className="flex items-center justify-center h-screen">
   <img
     className="w-24 h-24 "
     alt="Solar home linear"
     src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/solar-home-linear.svg"
   />
-</div>
-
+</div> */}
       </div>
     </section>
   );

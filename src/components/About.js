@@ -1,11 +1,15 @@
 import React from "react";
-// import "../App.css";
 
 function About() {
   return (
     <section className="hero-section">
       <div className="about mx-12 ">
-      <div className="flex items-center justify-center h-full text-lg font-bold" style={{ fontFamily: 'Cormorant Garamond', fontSize: '24px' }}>about</div>
+        <div
+          className="flex items-center justify-center h-full text-lg font-bold"
+          style={{ fontFamily: "Cormorant Garamond", fontSize: "24px" }}
+        >
+          about
+        </div>
         <div className="grid grid-cols-2 ">
           <p className="flex items-center justify-center">
             Based in Kenya, our dynamic design company comprises a skilled team
