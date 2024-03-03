@@ -2,6 +2,16 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Graphic from "../assets/graphicdesign.jpg";
+import Digital from "../assets/digitaldesign.jpg";
+import printD from "../assets/printdesign.jpg";
+import printing from "../assets/printingservices.jpg";
+import branding from "../assets/branding.jpg";
+import photography from "../assets/photography.jpg";
+import promotional from "../assets/promotional products.jpg";
+import consultancy from "../assets/consultation service.jpg";
+import OO from "../assets/online ordering.jpg";
+import Custom from "../assets/nyoni.jpg";
 
 function Services() {
   const settings = {
@@ -54,7 +64,7 @@ function Services() {
             <img
               className="img-2 w-562 h-322"
               alt="Graphicdesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/graphicdesign-2.png"
+              src={Graphic}
             />
           </div>
         </div>
@@ -63,7 +73,7 @@ function Services() {
             <img
               className="img w-562 h-322"
               alt="Digitaldesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/digitaldesign-3.png"
+              src={Digital}
             />
             <p className="digital-design-2">
               <span className="font-cormorant-garamond text-24 font-bold">
@@ -116,8 +126,7 @@ function Services() {
             <img
               className="printdesign w-562 h-322"
               alt="Printdesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/printdesign.png"
-            />
+              src={printD}  />
           </div>
         </div>
         <div className="printing-services">
@@ -125,8 +134,7 @@ function Services() {
             <img
               className="img w-562 h-322"
               alt="Printingservices"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/printingservices.png"
-            />
+              src={printing} />
             <p className="printing-services-2">
               <span className="font-cormorant-garamond text-24 font-bold">
                 Printing Services:
@@ -176,8 +184,8 @@ function Services() {
             <img
               className="img-2 w-562 h-322"
               alt="Branding"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/branding-2.png"
-            />
+              src={branding}
+              />
           </div>
         </div>
         <div className="photography-services">
@@ -185,8 +193,8 @@ function Services() {
             <img
               className="img w-562 h-322"
               alt="Digitaldesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/digitaldesign-2.png"
-            />
+              src={photography}
+               />
             <p className="photography-services-2">
               <span className="font-cormorant-garamond text-24 font-bold">
                 Photography Services:
@@ -227,8 +235,8 @@ function Services() {
             <img
               className="graphicdesign w-562 h-322"
               alt="Graphicdesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/graphicdesign-1.png"
-            />
+              src={promotional}
+                />
           </div>
         </div>
         <div className="consultancy-service">
@@ -236,8 +244,8 @@ function Services() {
             <img
               className="img w-562 h-322"
               alt="Digitaldesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/digitaldesign-1.png"
-            />
+              src={consultancy}
+               />
             <p className="p">
               <span className="text-wrapper-10">
                 <br />
@@ -282,8 +290,8 @@ function Services() {
             <img
               className="graphicdesign w-562 h-322"
               alt="Graphicdesign"
-              src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/graphicdesign.png"
-            />
+              src={OO}
+              />
           </div>
         </div>
         <div className="customized-design">
@@ -291,7 +299,7 @@ function Services() {
             <img
               className="img w-562 h-322"
               alt="Digitaldesign"
-              src="assets/nyoni.jpg"
+              src={Custom}
             />
             <p className="p">
               <span className="text-wrapper-10">

@@ -1,4 +1,8 @@
 import React from "react";
+import call from "../assets/Headset.png";
+import email from "../assets/email.png";
+import location from "../assets/map.png";
+import time from "../assets/Clock_.png";
 
 function Footer() {
   return (
@@ -27,32 +31,30 @@ function Footer() {
               <img
                 className="icon-headset"
                 alt="Icon headset"
-                src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/---icon--headset-@2x.png"
-              />
+                src={call}  />
               <div className="text-wrapper-5">0725611196</div>
             </div>
             <div className="flex email">
               <img
                 className="icon-envelope-open"
                 alt="Icon envelope open"
-                src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/---icon--envelope-open-text-@2x.png"
-              />
+                src={email}
+                 />
               <div className="text-wrapper-6"> suavedesign.africa</div>
             </div>
             <div className="flex location">
               <img
                 className="icon-alternate-map"
                 alt="Icon alternate map"
-                src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/---icon--alternate-map-marker-@2x.png"
-              />
+                src={location}  />
               <div className="text-wrapper-7">Nairobi, Kenya</div>
             </div>
             <div className="flex time">
               <img
                 className="icon-clock"
                 alt="Icon clock"
-                src="https://cdn.animaapp.com/projects/65bb9cf0fa94d15f05bf2831/releases/65bb9e16a590e32820139c52/img/---icon--clock-@2x.png"
-              />
+                src={time}
+                 />
               <div className="text-wrapper-6">
                 Mon-Fri: 08.00 - 17.00, Saturday $ Sunday: Closed
               </div>
